@@ -26,8 +26,8 @@ import (
 	"go.etcd.io/etcd/pkg/v3/testutil"
 	"go.etcd.io/etcd/tests/v3/integration"
 
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/status"
+	"github.com/mchirico/grpc/codes"
+	"github.com/mchirico/grpc/status"
 )
 
 // TestBalancerUnderServerShutdownWatch expects that watch client

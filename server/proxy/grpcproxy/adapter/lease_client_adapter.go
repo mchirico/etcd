@@ -19,7 +19,7 @@ import (
 
 	pb "go.etcd.io/etcd/api/v3/etcdserverpb"
 
-	"google.golang.org/grpc"
+	"github.com/mchirico/grpc"
 )
 
 type ls2lc struct {

@@ -32,8 +32,8 @@ import (
 	"go.etcd.io/etcd/pkg/v3/testutil"
 	"go.etcd.io/etcd/tests/v3/integration"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
+	"github.com/mchirico/grpc"
+	"github.com/mchirico/grpc/codes"
 )
 
 func TestKVPutError(t *testing.T) {

@@ -17,7 +17,7 @@ package logutil
 import (
 	"log"
 
-	"google.golang.org/grpc/grpclog"
+	"github.com/mchirico/grpc/grpclog"
 )
 
 // assert that "discardLogger" satisfy "Logger" interface

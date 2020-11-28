@@ -45,8 +45,8 @@ import (
 	grpc_prometheus "github.com/grpc-ecosystem/go-grpc-prometheus"
 	"github.com/soheilhy/cmux"
 	"go.uber.org/zap"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/keepalive"
+	"github.com/mchirico/grpc"
+	"github.com/mchirico/grpc/keepalive"
 )
 
 const (

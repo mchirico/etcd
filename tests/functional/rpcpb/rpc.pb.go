@@ -9,9 +9,9 @@ import (
 	fmt "fmt"
 	_ "github.com/gogo/protobuf/gogoproto"
 	proto "github.com/golang/protobuf/proto"
-	grpc "google.golang.org/grpc"
-	codes "google.golang.org/grpc/codes"
-	status "google.golang.org/grpc/status"
+	grpc "github.com/mchirico/grpc"
+	codes "github.com/mchirico/grpc/codes"
+	status "github.com/mchirico/grpc/status"
 	io "io"
 	math "math"
 	math_bits "math/bits"
@@ -1241,7 +1241,7 @@ const _ = grpc.SupportPackageIsVersion4
 
 // TransportClient is the client API for Transport service.
 //
-// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://godoc.org/google.golang.org/grpc#ClientConn.NewStream.
+// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://godoc.org/github.com/mchirico/grpc#ClientConn.NewStream.
 type TransportClient interface {
 	Transport(ctx context.Context, opts ...grpc.CallOption) (Transport_TransportClient, error)
 }

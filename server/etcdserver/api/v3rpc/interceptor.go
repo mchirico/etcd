@@ -27,9 +27,9 @@ import (
 
 	pb "go.etcd.io/etcd/api/v3/etcdserverpb"
 	"go.uber.org/zap"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/metadata"
-	"google.golang.org/grpc/peer"
+	"github.com/mchirico/grpc"
+	"github.com/mchirico/grpc/metadata"
+	"github.com/mchirico/grpc/peer"
 )
 
 const (

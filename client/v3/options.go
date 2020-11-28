@@ -18,7 +18,7 @@ import (
 	"math"
 	"time"
 
-	"google.golang.org/grpc"
+	"github.com/mchirico/grpc"
 )
 
 var (

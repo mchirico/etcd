@@ -32,7 +32,7 @@ import (
 	"go.etcd.io/etcd/server/v3/etcdserver/api/v3rpc"
 	"go.etcd.io/etcd/tests/v3/integration"
 
-	"google.golang.org/grpc/metadata"
+	"github.com/mchirico/grpc/metadata"
 )
 
 type watcherTest func(*testing.T, *watchctx)

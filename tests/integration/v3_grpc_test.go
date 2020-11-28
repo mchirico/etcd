@@ -31,10 +31,10 @@ import (
 	"go.etcd.io/etcd/pkg/v3/testutil"
 	"go.etcd.io/etcd/pkg/v3/transport"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/metadata"
-	"google.golang.org/grpc/status"
+	"github.com/mchirico/grpc"
+	"github.com/mchirico/grpc/codes"
+	"github.com/mchirico/grpc/metadata"
+	"github.com/mchirico/grpc/status"
 )
 
 // TestV3PutOverwrite puts a key with the v3 api to a random cluster member,

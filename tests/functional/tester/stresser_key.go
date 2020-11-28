@@ -31,9 +31,9 @@ import (
 
 	"go.uber.org/zap"
 	"golang.org/x/time/rate"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/status"
+	"github.com/mchirico/grpc"
+	"github.com/mchirico/grpc/codes"
+	"github.com/mchirico/grpc/status"
 )
 
 type keyStresser struct {

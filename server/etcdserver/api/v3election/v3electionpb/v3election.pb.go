@@ -15,9 +15,9 @@ import (
 	etcdserverpb "go.etcd.io/etcd/api/v3/etcdserverpb"
 	mvccpb "go.etcd.io/etcd/api/v3/mvccpb"
 	_ "google.golang.org/genproto/googleapis/api/annotations"
-	grpc "google.golang.org/grpc"
-	codes "google.golang.org/grpc/codes"
-	status "google.golang.org/grpc/status"
+	grpc "github.com/mchirico/grpc"
+	codes "github.com/mchirico/grpc/codes"
+	status "github.com/mchirico/grpc/status"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.
@@ -599,7 +599,7 @@ const _ = grpc.SupportPackageIsVersion4
 
 // ElectionClient is the client API for Election service.
 //
-// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://godoc.org/google.golang.org/grpc#ClientConn.NewStream.
+// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://godoc.org/github.com/mchirico/grpc#ClientConn.NewStream.
 type ElectionClient interface {
 	// Campaign waits to acquire leadership in an election, returning a LeaderKey
 	// representing the leadership if successful. The LeaderKey can then be used

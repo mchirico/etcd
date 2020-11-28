@@ -24,7 +24,7 @@ import (
 	"github.com/bgentry/speakeasy"
 	"go.etcd.io/etcd/client/v3"
 	"go.etcd.io/etcd/pkg/v3/report"
-	"google.golang.org/grpc/grpclog"
+	"github.com/mchirico/grpc/grpclog"
 )
 
 var (

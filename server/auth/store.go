@@ -34,9 +34,9 @@ import (
 
 	"go.uber.org/zap"
 	"golang.org/x/crypto/bcrypt"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/metadata"
-	"google.golang.org/grpc/peer"
+	"github.com/mchirico/grpc/credentials"
+	"github.com/mchirico/grpc/metadata"
+	"github.com/mchirico/grpc/peer"
 )
 
 var (

@@ -24,9 +24,9 @@ import (
 	"go.etcd.io/etcd/api/v3/v3rpc/rpctypes"
 	"go.etcd.io/etcd/pkg/v3/testutil"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/status"
+	"github.com/mchirico/grpc"
+	"github.com/mchirico/grpc/codes"
+	"github.com/mchirico/grpc/status"
 )
 
 // TestV3MaintenanceDefragmentInflightRange ensures inflight range requests

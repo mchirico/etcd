@@ -25,7 +25,7 @@ import (
 	"go.etcd.io/etcd/server/v3/etcdserver/api/v2v3"
 	"go.etcd.io/etcd/tests/v3/integration"
 
-	"google.golang.org/grpc/grpclog"
+	"github.com/mchirico/grpc/grpclog"
 )
 
 func init() {

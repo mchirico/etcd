@@ -26,8 +26,8 @@ import (
 	"go.etcd.io/etcd/server/v3/lease"
 	"go.etcd.io/etcd/server/v3/mvcc"
 
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/status"
+	"github.com/mchirico/grpc/codes"
+	"github.com/mchirico/grpc/status"
 )
 
 var toGRPCErrorMap = map[error]error{

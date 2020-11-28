@@ -38,7 +38,7 @@ import (
 	"go.etcd.io/etcd/server/v3/proxy/httpproxy"
 
 	"go.uber.org/zap"
-	"google.golang.org/grpc"
+	"github.com/mchirico/grpc"
 )
 
 type dirType string

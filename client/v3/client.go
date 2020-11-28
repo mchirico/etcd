@@ -33,11 +33,11 @@ import (
 	"go.etcd.io/etcd/client/v3/credentials"
 	"go.etcd.io/etcd/pkg/v3/logutil"
 	"go.uber.org/zap"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
-	grpccredentials "google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/keepalive"
-	"google.golang.org/grpc/status"
+	"github.com/mchirico/grpc"
+	"github.com/mchirico/grpc/codes"
+	grpccredentials "github.com/mchirico/grpc/credentials"
+	"github.com/mchirico/grpc/keepalive"
+	"github.com/mchirico/grpc/status"
 )
 
 var (

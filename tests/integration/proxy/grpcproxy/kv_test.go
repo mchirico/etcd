@@ -26,7 +26,7 @@ import (
 	"go.etcd.io/etcd/server/v3/proxy/grpcproxy"
 	"go.etcd.io/etcd/tests/v3/integration"
 
-	"google.golang.org/grpc"
+	"github.com/mchirico/grpc"
 )
 
 func TestKVProxyRange(t *testing.T) {

@@ -27,7 +27,7 @@ import (
 	"go.etcd.io/etcd/tests/v3/integration"
 
 	"go.uber.org/zap"
-	"google.golang.org/grpc"
+	"github.com/mchirico/grpc"
 )
 
 func TestClusterProxyMemberList(t *testing.T) {

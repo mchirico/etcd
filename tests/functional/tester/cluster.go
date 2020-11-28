@@ -36,7 +36,7 @@ import (
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"go.uber.org/zap"
 	"golang.org/x/time/rate"
-	"google.golang.org/grpc"
+	"github.com/mchirico/grpc"
 )
 
 // Cluster defines tester cluster.

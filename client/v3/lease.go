@@ -23,8 +23,8 @@ import (
 	"go.etcd.io/etcd/api/v3/v3rpc/rpctypes"
 
 	"go.uber.org/zap"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/metadata"
+	"github.com/mchirico/grpc"
+	"github.com/mchirico/grpc/metadata"
 )
 
 type (

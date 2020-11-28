@@ -321,7 +321,7 @@ After
 
 ```go
 import "github.com/coreos/etcd/clientv3"
-import "google.golang.org/grpc/grpclog"
+import "github.com/mchirico/grpc/grpclog"
 clientv3.SetLogger(grpclog.NewLoggerV2(os.Stderr, os.Stderr, os.Stderr))
 
 // log.New above cannot be used (not implement grpclog.LoggerV2 interface)
@@ -382,9 +382,9 @@ docker pull gcr.io/etcd-development/etcd:v3.3.0
 import (
 +	"go.etcd.io/etcd/clientv3"
 
-	"google.golang.org/grpc"
-+	"google.golang.org/grpc/codes"
-+	"google.golang.org/grpc/status"
+	"github.com/mchirico/grpc"
++	"github.com/mchirico/grpc/codes"
++	"github.com/mchirico/grpc/status"
 )
 
 _, err := kvc.Get(ctx, "a")
@@ -403,7 +403,7 @@ _, err := kvc.Get(ctx, "a")
 import (
 	"time"
 	"go.etcd.io/etcd/clientv3"
-+	"google.golang.org/grpc"
++	"github.com/mchirico/grpc"
 )
 
 +// "grpc.WithBlock()" to block until the underlying connection is up

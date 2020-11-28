@@ -21,7 +21,7 @@ import (
 
 	"go.etcd.io/etcd/api/v3/v3rpc/rpctypes"
 	"go.etcd.io/etcd/api/v3/version"
-	"google.golang.org/grpc/metadata"
+	"github.com/mchirico/grpc/metadata"
 )
 
 func TestMetadataWithRequireLeader(t *testing.T) {

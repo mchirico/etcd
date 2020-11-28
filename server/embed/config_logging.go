@@ -25,8 +25,8 @@ import (
 
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/grpclog"
+	"github.com/mchirico/grpc"
+	"github.com/mchirico/grpc/grpclog"
 )
 
 // GetLogger returns the logger.

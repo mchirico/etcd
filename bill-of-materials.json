@@ -594,7 +594,7 @@
 		]
 	},
 	{
-		"project": "google.golang.org/grpc",
+		"project": "github.com/mchirico/grpc",
 		"licenses": [
 			{
 				"type": "Apache License 2.0",

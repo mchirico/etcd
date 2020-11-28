@@ -25,7 +25,7 @@ import (
 	"go.etcd.io/etcd/tests/v3/integration"
 
 	"go.uber.org/zap"
-	gnaming "google.golang.org/grpc/naming"
+	gnaming "github.com/mchirico/grpc/naming"
 )
 
 func TestRegister(t *testing.T) {

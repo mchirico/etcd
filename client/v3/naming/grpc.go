@@ -21,9 +21,9 @@ import (
 
 	etcd "go.etcd.io/etcd/client/v3"
 
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/naming"
-	"google.golang.org/grpc/status"
+	"github.com/mchirico/grpc/codes"
+	"github.com/mchirico/grpc/naming"
+	"github.com/mchirico/grpc/status"
 )
 
 var ErrWatcherClosed = fmt.Errorf("naming: watch closed")

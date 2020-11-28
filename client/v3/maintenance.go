@@ -21,7 +21,7 @@ import (
 
 	pb "go.etcd.io/etcd/api/v3/etcdserverpb"
 	"go.uber.org/zap"
-	"google.golang.org/grpc"
+	"github.com/mchirico/grpc"
 )
 
 type (

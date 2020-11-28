@@ -23,7 +23,7 @@ import (
 	"strings"
 	"sync"
 
-	"google.golang.org/grpc/resolver"
+	"github.com/mchirico/grpc/resolver"
 )
 
 const scheme = "endpoint"

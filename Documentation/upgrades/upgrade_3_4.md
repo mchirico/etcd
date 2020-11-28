@@ -72,9 +72,9 @@ Other HTTP APIs will still work (e.g. `[CLIENT-URL]/metrics`, `[CLIENT-URL]/heal
 import (
 +	"go.etcd.io/etcd/clientv3"
 
-	"google.golang.org/grpc"
-+	"google.golang.org/grpc/codes"
-+	"google.golang.org/grpc/status"
+	"github.com/mchirico/grpc"
++	"github.com/mchirico/grpc/codes"
++	"github.com/mchirico/grpc/status"
 )
 
 _, err := kvc.Get(ctx, "a")
@@ -95,7 +95,7 @@ _, err := kvc.Get(ctx, "a")
 import (
 	"time"
 	"go.etcd.io/etcd/clientv3"
-+	"google.golang.org/grpc"
++	"github.com/mchirico/grpc"
 )
 
 +// "grpc.WithBlock()" to block until the underlying connection is up

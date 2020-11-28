@@ -22,7 +22,7 @@ import (
 
 	"go.etcd.io/etcd/pkg/v3/logutil"
 
-	"google.golang.org/grpc/grpclog"
+	"github.com/mchirico/grpc/grpclog"
 )
 
 func TestLogger(t *testing.T) {

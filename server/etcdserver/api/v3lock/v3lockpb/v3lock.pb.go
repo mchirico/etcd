@@ -14,9 +14,9 @@ import (
 	proto "github.com/golang/protobuf/proto"
 	etcdserverpb "go.etcd.io/etcd/api/v3/etcdserverpb"
 	_ "google.golang.org/genproto/googleapis/api/annotations"
-	grpc "google.golang.org/grpc"
-	codes "google.golang.org/grpc/codes"
-	status "google.golang.org/grpc/status"
+	grpc "github.com/mchirico/grpc"
+	codes "github.com/mchirico/grpc/codes"
+	status "github.com/mchirico/grpc/status"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.
@@ -288,7 +288,7 @@ const _ = grpc.SupportPackageIsVersion4
 
 // LockClient is the client API for Lock service.
 //
-// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://godoc.org/google.golang.org/grpc#ClientConn.NewStream.
+// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://godoc.org/github.com/mchirico/grpc#ClientConn.NewStream.
 type LockClient interface {
 	// Lock acquires a distributed shared lock on a given named lock.
 	// On success, it will return a unique key that exists so long as the

@@ -56,9 +56,9 @@ import (
 	"github.com/soheilhy/cmux"
 	"go.uber.org/zap"
 	"golang.org/x/crypto/bcrypt"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/keepalive"
+	"github.com/mchirico/grpc"
+	"github.com/mchirico/grpc/grpclog"
+	"github.com/mchirico/grpc/keepalive"
 )
 
 const (

@@ -20,7 +20,7 @@ import (
 	pb "go.etcd.io/etcd/api/v3/etcdserverpb"
 	"go.etcd.io/etcd/pkg/v3/types"
 
-	"google.golang.org/grpc"
+	"github.com/mchirico/grpc"
 )
 
 type (

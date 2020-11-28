@@ -26,7 +26,7 @@ import (
 	"go.etcd.io/etcd/tests/v3/functional/rpcpb"
 
 	"go.uber.org/zap"
-	"google.golang.org/grpc"
+	"github.com/mchirico/grpc"
 )
 
 // Server implements "rpcpb.TransportServer"

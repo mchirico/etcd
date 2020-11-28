@@ -20,8 +20,8 @@
 //		"go.etcd.io/etcd/client/v3"
 //		etcdnaming "go.etcd.io/etcd/client/v3/naming"
 //
-//		"google.golang.org/grpc"
-//		"google.golang.org/grpc/naming"
+//		"github.com/mchirico/grpc"
+//		"github.com/mchirico/grpc/naming"
 //	)
 //
 // First, register new endpoint addresses for a service:
